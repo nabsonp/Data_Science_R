@@ -1,0 +1,70 @@
+//******************************************************************************
+//                      DUT Setup file FGR1
+//******************************************************************************
+//
+//       Copyright (c) 2016 Technicolor,   All Rights Reserved
+//
+//******************************************************************************
+
+Modelo TC7337
+Date 
+2016-05-10-08:17:25
+Ver 7.56.1
+
+Channel BW 20Mhz
+Teste 01 Antena 01 Channel 01 Freq 2412 [ Occ Band 16,445312 PASSED] [ Power -0,735869 PASSED]
+1 [Mask Margin Frequency locations {-outsig -32,734376}=1,{-3sig  -20,312500}=1,{-2sig -14,375000}=1,{-1sig -10,976562}=1,{U -6,875000}=1,{+1sig 10,937500}=1,{+2sig 17,500000}=1,{+3sig 20,625000}=1,{+outsig 30,820312}=1 PASSED
+Teste 02 Antena 02 Channel 01 Freq 2412 [ Occ Band 16,406250 PASSED] [ Power -0,456733 PASSED]
+2 [Mask Margin Frequency locations {-outsig -33,203124}=1,{-3sig  -20,312500}=1,{-2sig -14,375000}=1,{-1sig -10,976562}=1,{U -6,875000}=1,{+1sig 10,898438}=1,{+2sig 11,015625}=1,{+3sig 29,843750}=1,{+outsig 33,359376}=1 PASSED
+Teste 03 Antena 03 Channel 01 Freq 2412 [ Occ Band 16,406250 PASSED] [ Power -2,012086 PASSED]
+3 [Mask Margin Frequency locations {-outsig -32,695312}=1,{-3sig  -29,804688}=1,{-2sig -14,375000}=1,{-1sig -10,976562}=1,{U -6,875000}=1,{+1sig 9,804688}=1,{+2sig 11,015625}=1,{+3sig 29,960938}=1,{+outsig 33,320312}=1 PASSED
+
+Teste 04 Antena 01 Channel 07 Freq 2442 [ Occ Band 16,445312 PASSED] [ Power -0,679459 PASSED]
+4 [Mask Margin Frequency locations {-outsig -32,851562}=1,{-3sig  -20,312500}=1,{-2sig -14,375000}=1,{-1sig -10,976562}=1,{U 1,250000}=1,{+1sig 10,937500}=1,{+2sig 11,015625}=1,{+3sig 29,960938}=1,{+outsig 30,000000}=1 PASSED
+Teste 05 Antena 02 Channel 07 Freq 2442 [ Occ Band 16,445312 PASSED] [ Power -0,989059 PASSED]
+5 [Mask Margin Frequency locations {-outsig -37,343752}=1,{-3sig  -29,687500}=1,{-2sig -14,375000}=1,{-1sig -10,976562}=1,{U 1,250000}=1,{+1sig 9,804688}=1,{+2sig 11,015625}=1,{+3sig 29,960938}=1,{+outsig 30,039062}=1 PASSED
+Teste 06 Antena 03 Channel 07 Freq 2442 [ Occ Band 16,445312 PASSED] [ Power -2,136856 PASSED]
+6 [Mask Margin Frequency locations {-outsig -36,250000}=1,{-3sig  -29,687500}=1,{-2sig -14,375000}=1,{-1sig -9,726562}=1,{U 1,250000}=1,{+1sig 9,804688}=1,{+2sig 11,015625}=1,{+3sig 29,453124}=1,{+outsig 31,289062}=1 PASSED
+
+Teste 07 Antena 01 Channel 13 Freq 2472 [ Occ Band 16,445312 PASSED] [ Power -0,997459 PASSED]
+7 [Mask Margin Frequency locations {-outsig -30,898438}=1,{-3sig  -20,351562}=1,{-2sig -14,375000}=1,{-1sig -10,976562}=1,{U -6,875000}=1,{+1sig 10,937500}=1,{+2sig 17,500000}=1,{+3sig 29,960938}=1,{+outsig 35,976564}=1 PASSED
+Teste 08 Antena 02 Channel 13 Freq 2472 [ Occ Band 16,406250 PASSED] [ Power -1,509817 PASSED]
+8 [Mask Margin Frequency locations {-outsig -32,031250}=1,{-3sig  -29,960938}=1,{-2sig -14,375000}=1,{-1sig -10,976562}=1,{U -6,875000}=1,{+1sig 10,937500}=1,{+2sig 11,015625}=1,{+3sig 29,843750}=1,{+outsig 30,312500}=1 PASSED
+Teste 09 Antena 03 Channel 13 Freq 2472 [ Occ Band 16,406250 PASSED] [ Power -2,880697 PASSED]
+9 [Mask Margin Frequency locations {-outsig -34,882812}=1,{-3sig  -20,312500}=1,{-2sig -14,375000}=1,{-1sig -10,976562}=1,{U -6,875000}=1,{+1sig 9,804688}=1,{+2sig 11,015625}=1,{+3sig 29,843750}=1,{+outsig 31,835938}=1 PASSED
+
+Teste 10 Antena 01 Channel 36 Freq 5180 [ Occ Band 17,617187 PASSED] [ Power -9,306970 PASSED]
+10 [Mask Margin Frequency locations {-outsig -38,750000}=1,{-3sig  -29,804688}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -1,289062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,882812}=1,{+outsig 33,632812}=1 PASSED
+Teste 11 Antena 02 Channel 36 Freq 5180 [ Occ Band 17,617187 PASSED] [ Power -9,104118 PASSED]
+11 [Mask Margin Frequency locations {-outsig -37,500000}=1,{-3sig  -30,000000}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -1,289062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,960938}=1,{+outsig 38,710936}=1 PASSED
+Teste 12 Antena 03 Channel 36 Freq 5180 [ Occ Band 17,617187 PASSED] [ Power -10,452193 PASSED]
+12 [Mask Margin Frequency locations {-outsig -38,710936}=1,{-3sig  -30,000000}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -1,289062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,960938}=1,{+outsig 37,851564}=1 PASSED
+
+Teste 13 Antena 01 Channel 64 Freq 5320 [ Occ Band 17,578125 PASSED] [ Power -11,503885 PASSED]
+13 [Mask Margin Frequency locations {-outsig -40,000000}=1,{-3sig  -30,000000}=1,{-2sig -15,585938}=1,{-1sig -9,140625}=1,{U -0,039062}=1,{+1sig 9,062500}=1,{+2sig 16,835938}=1,{+3sig 29,687500}=1,{+outsig 39,960936}=1 PASSED
+Teste 14 Antena 02 Channel 64 Freq 5320 [ Occ Band 17,578125 PASSED] [ Power -10,052637 PASSED]
+14 [Mask Margin Frequency locations {-outsig -40,000000}=1,{-3sig  -30,000000}=1,{-2sig -11,289062}=1,{-1sig -9,140625}=1,{U -0,039062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,960938}=1,{+outsig 39,960936}=1 PASSED
+Teste 15 Antena 03 Channel 64 Freq 5320 [ Occ Band 17,617187 PASSED] [ Power -12,134833 PASSED]
+15 [Mask Margin Frequency locations {-outsig -33,710936}=1,{-3sig  -30,000000}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -1,289062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,882812}=1,{+outsig 38,710936}=1 PASSED
+
+Teste 16 Antena 01 Channel 100 Freq 5500 [ Occ Band 17,617187 PASSED] [ Power -14,800444 PASSED]
+16 [Mask Margin Frequency locations {-outsig -40,000000}=1,{-3sig  -30,000000}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -0,039062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,804688}=1,{+outsig 38,710936}=1 PASSED
+Teste 17 Antena 02 Channel 100 Freq 5500 [ Occ Band 17,617187 PASSED] [ Power -14,456743 PASSED]
+17 [Mask Margin Frequency locations {-outsig -40,000000}=1,{-3sig  -29,960938}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -0,039062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,960938}=1,{+outsig 39,960936}=1 PASSED
+Teste 18 Antena 03 Channel 100 Freq 5500 [ Occ Band 17,617187 PASSED] [ Power -13,990469 PASSED]
+18 [Mask Margin Frequency locations {-outsig -38,750000}=1,{-3sig  -29,726562}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -1,289062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,609376}=1,{+outsig 35,273436}=1 PASSED
+
+Teste 19 Antena 01 Channel 140 Freq 5700 [ Occ Band 17,617187 PASSED] [ Power -16,138430 PASSED]
+19 [Mask Margin Frequency locations {-outsig -40,000000}=1,{-3sig  -30,000000}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -0,039062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,804688}=1,{+outsig 39,960936}=1 PASSED
+Teste 20 Antena 02 Channel 140 Freq 5700 [ Occ Band 17,617187 PASSED] [ Power -16,220081 PASSED]
+20 [Mask Margin Frequency locations {-outsig -40,000000}=1,{-3sig  -29,804688}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -0,039062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,804688}=1,{+outsig 39,960936}=1 PASSED
+Teste 21 Antena 03 Channel 140 Freq 5700 [ Occ Band 17,617187 PASSED] [ Power -15,527149 PASSED]
+21 [Mask Margin Frequency locations {-outsig -39,726564}=1,{-3sig  -30,000000}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -1,289062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,921876}=1,{+outsig 39,648436}=1 PASSED
+
+Teste 22 Antena 01 Channel 161 Freq 5805 [ Occ Band 17,617187 PASSED] [ Power -15,034198 PASSED]
+22 [Mask Margin Frequency locations {-outsig -38,750000}=1,{-3sig  -30,000000}=1,{-2sig -15,976562}=1,{-1sig -9,140625}=1,{U -1,289062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,570312}=1,{+outsig 38,710936}=1 PASSED
+Teste 23 Antena 02 Channel 161 Freq 5805 [ Occ Band 17,617187 PASSED] [ Power -13,987399 PASSED]
+23 [Mask Margin Frequency locations {-outsig -38,789064}=1,{-3sig  -30,000000}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -1,289062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,687500}=1,{+outsig 38,710936}=1 PASSED
+Teste 24 Antena 03 Channel 161 Freq 5805 [ Occ Band 17,617187 PASSED] [ Power -14,648782 PASSED]
+24 [Mask Margin Frequency locations {-outsig -38,789064}=1,{-3sig  -30,000000}=1,{-2sig -11,054688}=1,{-1sig -9,140625}=1,{U -1,289062}=1,{+1sig 9,062500}=1,{+2sig 11,015625}=1,{+3sig 29,960938}=1,{+outsig 32,187500}=1 PASSED
+

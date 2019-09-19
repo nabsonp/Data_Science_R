@@ -1,0 +1,26 @@
+//******************************************************************************
+//                      DUT Setup file FGR1
+//******************************************************************************
+//
+//       Copyright (c) 2016 Technicolor,   All Rights Reserved
+//
+//******************************************************************************
+
+Modelo TC7337
+Date 
+2016-05-18-07:58:56
+Ver 7.56.1
+
+Channel BW 20Mhz
+Teste 01 Antena 01 Channel 01 Freq 2412 [ Occ Band 16,445312 PASSED] [ Power -0,729830 PASSED]
+1 [Mask Margin Frequency locations {-outsig -31,289062}=1,{-3sig  -20,312500}=1,{-2sig -14,375000}=1,{-1sig -10,976562}=1,{U -6,875000}=1,{+1sig 10,937500}=1,{+2sig 17,500000}=1,{+3sig 29,882812}=1,{+outsig 30,039062}=1 PASSED
+Teste 02 Antena 02 Channel 01 Freq 2412 [ Occ Band 0,000000 FAILED] [ Power NaN FAILED]
+2 [Mask Margin Frequency locations {-outsig 0,000000}=1,{-3sig  0,000000}=1,{-2sig 0,000000}=1,{-1sig 0,000000}=1,{U 0,000000}=1,{+1sig 0,000000}=1,{+2sig 0,000000}=1,{+3sig 0,000000}=1,{+outsig 0,000000}=1 FAILED
+
+
+
+
+
+
+
+
