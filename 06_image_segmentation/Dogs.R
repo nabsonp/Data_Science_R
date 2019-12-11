@@ -5,14 +5,14 @@ library(jpeg)
 
 
 dogs = readJPEG("doguinhos.jpg")
-dim(dogs)
+dim(dogs) # shows the image dimension
 dev.new()
 plot(1:2, type='n')
 
 rasterImage(dogs, 1, 1, 2, 2)
 
 DATA = data.frame(R = c(dogs[,,1]),G = c(dogs[,,2]), B = c(dogs[,,3]))
-
+View(DATA)
 mod = kmeans(DATA, centers = 2)
 cl = mod$cluster
 for(i in 1:nrow(DATA)){
