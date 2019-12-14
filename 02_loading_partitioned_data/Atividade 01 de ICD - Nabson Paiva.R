@@ -1,17 +1,18 @@
-breast <- read.table("~/Documentos/UFAM/4º período/ICD/Aula 02 - Breast/breast.txt", header=FALSE, stringsAsFactors=FALSE)
+setwd("~/Documentos/UFAM/4º período/ICD/02_loading_partitioned_data")
+breast <- read.table("breast.txt", header=FALSE, stringsAsFactors=FALSE)
 
 vol_data = 0
 size = 0
 cnt = 1
 while (size <= 10000) {
-  br <- read.table("~/Documentos/UFAM/4º período/ICD/Aula 02 - Breast/breast.txt", header=FALSE,
+  br <- read.table("breast.txt", header=FALSE,
                    stringsAsFactors=FALSE, nrows=cnt)
   size = object.size(br)
   cnt = cnt + 1
 }
 
 vol_data = cnt -2
-br2 = read.table("~/Documentos/UFAM/4º período/ICD/Aula 02 - Breast/breast.txt", header=FALSE,
+br2 = read.table("breast.txt", header=FALSE,
                  stringsAsFactors=FALSE, nrows=vol_data)
 size = object.size(br2)
 size
@@ -22,9 +23,8 @@ nPar
 media.vec = rep(0,length=ncol(br)-1)
 maior.vec = c()
 menor.vec = c()
-min(br3[30])
 for (k in 1:nPar) {
-  br3 = read.table("~/Documentos/UFAM/4º período/ICD/Aula 02 - Breast/breast.txt", header=FALSE,
+  br3 = read.table("breast.txt", header=FALSE,
                    stringsAsFactors=FALSE, nrows=vol_data, skip=(k-1)*vol_data)
   br3 = as.matrix(br3[,-31])
   menor.vec = apply(rbind(menor.vec,br3),2,min) # Correção
@@ -38,7 +38,7 @@ mediaPar
 
 var = rep(0,length=ncol(br)-1)
 for (k in 1:nPar) {
-  br3 = read.table("~/Documentos/UFAM/4º período/ICD/Aula 02 - Breast/breast.txt", header=FALSE,
+  br3 = read.table("breast.txt", header=FALSE,
                    stringsAsFactors=FALSE, nrows=vol_data, skip=(k-1)*vol_data)
   br3 = as.matrix(br3[,-31])
   var = var + colSums((t(t(br3) - mediaPar))^2) # Correção
@@ -48,4 +48,3 @@ for (k in 1:nPar) {
 }
 var = var / (nrow(breast)-1) # Correção
 var
-apply(breast,2,var)
